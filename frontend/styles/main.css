@@ -1,0 +1,368 @@
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+}
+
+
+
+.nav-item {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.nav-item .nav-link.nav-link.active {
+    font-weight: 600;
+    color: #fcbb3a !important;
+}
+
+.nav-link {
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    color: #fcbb3a !important;
+}
+
+
+/* Hero Section */
+.hero-section {
+    margin-top: 45px;
+}
+
+.hero-section h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 52px;
+}
+
+.hero-section p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.hero-section .btn-cta {
+    margin-top: 80px;
+}
+
+.hero-section .btn-cta img {
+    width: 67px;
+}
+
+.hero-section .btn {
+    border-radius: 0px 18px 18px 0px;
+    margin-left: 15px;
+}
+/* Akhir Hero Section */
+
+/* categories */
+.categories{
+    margin-top: 46px;
+}
+
+.tag {
+    background-color: #fcbb34;
+    border-radius: 0px 28px 0px 0px;
+    padding: .50rem 2.25rem;
+    min-height: 30px;
+    left: 15px;
+    z-index: 3;
+    bottom: 0;
+    position: absolute;
+}
+
+.categories-thumbnail {
+    height: 466px;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.categories-img {
+    height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition: all 0.3s ease;
+}
+
+.categories-thumbnail:hover .categories-img {
+    transform: scale(1.1);
+}
+
+.categories-thumbnail-small {
+    height: 223px;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.categories-thumbnail-small:hover .categories-img {
+    transform: scale(1.1);
+}
+/* Akhir Categories */
+
+/* Poppular Product */
+.product {
+    background: rgba(10, 12, 12, 0.13);
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.component-product{
+    background: white;
+    border-radius: 5px;
+    border: #000000;
+    padding-bottom: 15px;
+
+    margin-bottom: 60px;
+    transition: all 0.2s ease-in-out;
+}
+
+.component-product:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.product-image {
+    padding: 0.5px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #EAEAFA;
+}
+
+.product-text {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Poppins;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+.product-price {
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #fcbb34;
+    font-weight:400px;
+    text-align: center;
+}
+/* Akhir Poppular Product */
+
+/* Bikestore */
+.bikestore {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.bikestore .btn-cta {
+    margin-top: 108px;
+}
+/* Akhir Bikestore */
+
+/* Address */
+.address{
+    height: 220px;
+
+    background: rgba(240, 238, 238, 0.69);
+    color: rgb(0, 0, 0);
+}
+
+.address p {
+    color: #9b9494;
+    text-align: center;
+}
+/* Akhir Address */
+
+/*Copyright */
+.copyright .col-12 {
+    position: absolute;
+    width: 1440px;
+    height: 49px;
+    left: -1px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+    text-align: center;
+    background: rgba(8, 15, 151, 0.9);
+}
+/* Akhir copyright */
+
+/* Choice */
+.choice .col-8 {
+    width: 7px;
+    height: 280px;
+    left: 10px;
+    top: 55px;
+}
+
+.choice .col-3 {
+    width: 287px;
+    height: 140px;
+    left: 38px;
+    top: -5px;
+}
+
+.choice p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.choice .col-8 {
+    left: 1px;
+    width: 7px;
+    height: 400px;
+    top: 50px;
+
+    background: rgba(154, 147, 174, 0.27);
+    border-radius: 10px;
+}
+/* Akhir Choice */
+
+/* Booking */
+.booking h3 {
+    width: 1110px;
+    height: 60px;
+    left: 516px;
+    top: 449px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 34px;
+}
+
+.booking p {
+    width: 1110px;
+    height: 60px;
+    left: 448px;
+    top: 509px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 60;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.booking h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: rgba(0, 0, 0, 0.38);
+}
+
+/* Akhir Booking */
+
+/* Order */
+.order .col-7 {
+    width: 100px;
+    height: 300px;
+    left: 650px;
+    top: -440px;
+}
+
+.order .col-3 {
+    position: absolute;
+    width: 555px;
+    left: 650px;
+    top: 400px;
+}
+
+.order p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.order h1 {
+    position: absolute;
+    width: 201px;
+    height: 87px;
+    left: -360px;
+    top: 220px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.order h2 {
+    position: absolute;
+    width: 250px;
+    height: 87px;
+    left: -360px;
+    top: 337px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.order .col-2 {
+    position: absolute;
+    left: 650px;
+    top: 560px;
+}
+
+
+.order .col-5 {
+    width: -100px;
+    left: 650px;
+    top: -510px;
+}
+
+/* Akhir Order */
+
+/* Back*/
+.back .col-6 {
+    position: absolute;
+    width: 496px;
+    left: 425px;
+    height: 46px;
+    border-radius: 5px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #000000;
+}
+/* Akhir Back*/
+
+
